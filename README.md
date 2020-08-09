@@ -36,6 +36,19 @@ CREATE TABLE valute_last_update (
 );
 ```
 
+Настройки для соединения с БД могут отличаться:
+application.properties:
+```
+...
+spring.datasource.url=jdbc:postgresql://your_host/smartsoft
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+```
+
+## Тестовый пользователь
+логин: user1
+пароль: user1
+
 ## Запуск front:
 ```
 yarn install
@@ -46,3 +59,7 @@ yarn start
 ```
 mvn spring-boot:run
 ```
+
+
+
+
