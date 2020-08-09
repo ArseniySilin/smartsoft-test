@@ -1,5 +1,8 @@
 # Тестовое задание для smartsoft
 
+![Screenshot1](https://github.com/ArseniySilin/smartsoft-test/blob/master/Screenshot1.png)
+![Screenshot2](https://github.com/ArseniySilin/smartsoft-test/blob/master/Screenshot2.png)
+
 ## Скрипт создания базы данных:
 ```
 CREATE DATABASE smartsoft;
