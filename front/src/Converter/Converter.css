@@ -1,0 +1,22 @@
+.converter-wrapper {
+  margin: auto;
+  width: 800px;
+  padding: 20px 60px;
+}
+
+.inputs-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputs-wrapper div.form-group{
+  margin: 20px 40px 20px 0;
+}
+
+.input-group {
+  width: 300px;
+}
+
+.main-wrapper {
+  margin: 50px;
+}

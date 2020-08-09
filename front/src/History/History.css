@@ -1,0 +1,17 @@
+.history-wrapper {
+  width: 1200px;
+  margin: auto;
+}
+
+.empty-placeholder {
+  text-align: center;
+}
+
+.filters {
+  display: flex;
+  margin: 20px 0 20px 0;
+}
+
+.filters select {
+  margin: 0 0 0 40px;
+}
