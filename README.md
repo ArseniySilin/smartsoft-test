@@ -13,7 +13,7 @@ CREATE TABLE users (
     password varchar(20) NOT NULL
 );
 
-INSERT INTO users (id, username, password) VALUES (0, 'user1', 'user1');
+INSERT INTO users (id, username, password) VALUES (1, 'user1', 'user1');
 
 CREATE TABLE valute (
     id varchar(10) primary key,
