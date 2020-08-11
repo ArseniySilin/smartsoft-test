@@ -1,9 +1,9 @@
-# Тестовое задание для Smartsoft
+# Тестовое задание
 
 ![Screenshot1](https://github.com/ArseniySilin/smartsoft-test/blob/master/Screenshot1.png)
 ![Screenshot2](https://github.com/ArseniySilin/smartsoft-test/blob/master/Screenshot2.png)
 
-## Скрипт создания базы данных:
+## Скрипт создания базы данных
 ```
 CREATE DATABASE smartsoft;
 
@@ -39,8 +39,7 @@ CREATE TABLE valute_last_update (
 );
 ```
 
-Настройки для соединения с БД могут отличаться:
-application.properties:
+Настройки соединения с БД в файле application.properties
 ```
 ...
 spring.datasource.url=jdbc:postgresql://your_host/smartsoft
@@ -52,7 +51,7 @@ spring.datasource.password=your_password
 логин: user1
 пароль: user1
 
-## Запуск front:
+## Запуск frontend
 ```
 yarn install
 yarn start

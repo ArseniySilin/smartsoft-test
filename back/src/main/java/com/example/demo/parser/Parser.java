@@ -4,6 +4,7 @@ import com.example.demo.Valute.model.Valute;
 import com.example.demo.Valute.service.ValuteLastUpdateService;
 import com.example.demo.Valute.service.ValuteService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
@@ -36,7 +37,8 @@ public class Parser {
     1.0f
   );
 
-  private final String url = "http://www.cbr.ru/scripts/XML_daily.asp";
+  @Value("${cbr.api}")
+  private String url;
 
   private List<Valute> getValutes() {
     List<Valute> valuteList = new ArrayList<>();
